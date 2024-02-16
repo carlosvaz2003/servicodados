@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v2.3.7 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2024.02.14 às 10:55:53 PM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.dataaccess.com/webservicesserver/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.governo.api.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToWords">
+                  
+            <class ref="com.governo.api.wsdl.NumberToWords"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToWordsResponse">
+                  
+            <class ref="com.governo.api.wsdl.NumberToWordsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToDollars">
+                  
+            <class ref="com.governo.api.wsdl.NumberToDollars"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToDollarsResponse">
+                  
+            <class ref="com.governo.api.wsdl.NumberToDollarsResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

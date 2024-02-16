@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "org.eclipse.jetty.server.Server",
+  "type": "java.lang.String",
+  "description": "A description for 'org.eclipse.jetty.server.Server'"
+}]}
