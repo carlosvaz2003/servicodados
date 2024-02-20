@@ -155,13 +155,35 @@
 				</executions>
 				<configuration>
 					<wsdlDirectory>
-						/src/main/resources/api/oorsprong</wsdlDirectory>
+						src/main/resources/api/oorsprong</wsdlDirectory>
 					<packageName>com.governo.api.wsdl</packageName>
 					<sourceDestDir>
-						/src/main/java/
+						src/main/java/
 					</sourceDestDir>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>com.sun.xml.ws</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>4.0.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<wsdlDirectory>
+						src/main/resources/api/oorsprong</wsdlDirectory>
+					<packageName>com.governo.api.wsdl.oorsprong</packageName>
+					<sourceDestDir>
+						src/main/java/
+					</sourceDestDir>
+				</configuration>
+			</plugin>
+
 			<!-- Spring Boot Maven Plugin -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
